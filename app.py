@@ -62,4 +62,4 @@ if mostrar_clasificacion:
         clasificacion = "Muy caliente"
 
     st.write(f"Clasificación: {clasificacion} ({round(celsius, 2)} °C)")
->>>>>>> feature/kelvin
+
