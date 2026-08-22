@@ -1,2 +1,5 @@
 #Requerimientos
 streamlit
+numpy
+pandas
+seaborn
