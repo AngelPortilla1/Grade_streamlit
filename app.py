@@ -26,5 +26,15 @@ else:
     resultado = valor - 273.15
     st.success(f"**{round(resultado, 2)} °C**")
     st.caption(f"{valor} K son {round(resultado, 2)} °C")
-st.caption("Desarrollado por [@angel](https://github.com/angelportilla)")
+
+st.divider()
+pie_izquierdo, pie_derecho = st.columns(2)
+
+with pie_izquierdo:
+    st.markdown("**Conversor de temperatura**")
+    st.caption("Conversiones rápidas y precisas.")
+
+with pie_derecho:
+    st.markdown("Creado por [@angel](https://github.com/angelportilla1)")
+    st.caption("© 2026 · Todos los derechos reservados")
     
